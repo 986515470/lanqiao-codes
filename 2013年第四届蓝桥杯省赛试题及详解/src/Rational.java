@@ -34,7 +34,7 @@ public class Rational
 //        return ________________________________________;  //填空位置
 //    }
         public Rational add(Rational x){
-        return  new Rational(ra*x.rb+rb*x.ra, rb*x.rb);  //填空位置
+        return  new Rational(ra*x.rb+rb*x.ra, rb*x.rb);  //填空位置 answer
     }
 
     /**

@@ -40,8 +40,6 @@ public class 振兴中华 {
             for(int j=2;j<=5;j++)
             /*
              *   向上或向左搜寻
-             *       🔼
-             *     ◀ X
              */
                 dp[i][j] = dp[i][j-1] + dp[i-1][j];
         System.out.println(f(4,5));
