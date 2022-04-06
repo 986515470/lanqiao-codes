@@ -56,9 +56,9 @@ public class 方格填数 {
         }
 
         for(int i=m;i<10;i++) {
-            swap(m,i);
+            swap(i,m);
             dfs(m+1);
-            swap(m,i);
+            swap(i,m);
         }
 
     }
